@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "PRINTING A STRING \"N\" TIMES",
+      "setup": "cc Program-3.c",
+      "run": "./a.out",
+      "input": "3",
+      "output": "I Love VVCE I Love VVCE I Love VVCE",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Sum of \"N\" numbers in the array",
+      "setup": "cc Program-5.c",
+      "run": "./a.out",
+      "input": "4 1 2 3 4",
+      "output": "Sum of elements=10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Count of even and odd numbers in the array",
+      "setup": "cc Program-6.c",
+      "run": "./a.out",
+      "input": "3 1 2 3",
+      "output": "Total number of even numbers and odd numbers in the array are 1 and 2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Printing reverse of elements in the array",
+      "setup": "cc Program-7.c",
+      "run": "./a.out",
+      "input": "3 1 2 3",
+      "output": "3 2 1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Finding the largest and smallest elements in the array",
+      "setup": "cc Program-10.c",
+      "run": "./a.out",
+      "input": "4 30 20 10 60",
+      "output": "The largest and smallest elements are 60 and 10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Finding the frequency of a given number in the array",
+      "setup": "cc Program-8.c",
+      "run": "./a.out",
+      "input": "4 10 20 20 30 20",
+      "output": "The number of times the  key element  is repeated  is 2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Printing the first \"n\" natural numbers",
+      "setup": "cc Program-2.c",
+      "run": "./a.out",
+      "input": "3",
+      "output": "1 2 3\r\n",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Finding the number of digits in the given number",
+      "setup": "cc Program-1.c",
+      "run": "./a.out",
+      "input": "452",
+      "output": "3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Linear search",
+      "setup": "cc Program-9.c",
+      "run": "./a.out",
+      "input": "4 1 2 3 4 3",
+      "output": "3 ",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Finding the sum of all odd numbers from a given number to 10",
+      "setup": "cc Program-4.c",
+      "run": "./a.out",
+      "input": "10",
+      "output": "25",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
