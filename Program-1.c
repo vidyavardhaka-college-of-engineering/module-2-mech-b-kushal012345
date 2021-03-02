@@ -21,9 +21,9 @@ int main()
 
         /* Remove last digit of 'num' */
         num /= 10;
-    } while(  != 0);
+    } while(num!= 0);
 
-    printf("Total digits: %d", );
+    printf("Total digits: %d",count );
 
     return 0;
 }
