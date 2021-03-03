@@ -14,7 +14,7 @@ int main()
     //printf("Enter %d elements in array: ", num);
         //printf("Enter the elements");
         printf("enters the array elements");
-    for(i=0;i<n;i++)
+    for(i=0;i<num;i++)
     {
         scanf("%d",&arr[i]);//missing code
     }
@@ -34,4 +34,8 @@ int main()
            oddnum++; // increment oddnumber count
         }
     }
-    printf("total numbers of even numbers and odd numbers in the array are )           
+    printf("total numbers of even numbers and odd numbers in the array are %d and %d",evennum, oddnum );// missing code 
+    //printf("Total number of odd number of odd numbers in the array : %d\n",);// missing code 
+   
+    return(0);
+    }
