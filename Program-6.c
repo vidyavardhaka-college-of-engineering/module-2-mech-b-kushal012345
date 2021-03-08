@@ -27,11 +27,11 @@ int main()
         /* If the current element of array is evennumber then increment evennumber count */
         if(arr[i]%2 == 0) //missing code
         {
-          evennum ++;
+           evennum ++;
         }
         else
         {
-           oddnum++; // increment oddnumber count
+            oddnum++; // increment oddnumber count
         }
     }
     printf("total numbers of even numbers and odd numbers in the array are %d and %d",evennum, oddnum );// missing code 
