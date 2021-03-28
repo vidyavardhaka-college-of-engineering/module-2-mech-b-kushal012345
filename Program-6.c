@@ -13,7 +13,6 @@ int main()
     scanf("%d",&num);
     //printf("Enter %d elements in array: ", num);
         //printf("Enter the elements");
-        printf("enters the array elements");
     for(i=0;i<num;i++)
     {
         scanf("%d",&arr[i]);//missing code
