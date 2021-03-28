@@ -6,11 +6,13 @@
 #include<stdio.h>
 void main()
 {
-	int i=1,n;
-	printf("Enter upper limit : ");
+	int n,i;
+	printf("Enter a number:");
 	scanf("%d",&n);
-	printf("The natural numbers are ");
-	for(i=1;i<=;i++)
-		printf(" ",i);
-	//Fill the missing code here
- }
+	printf("Firstb%d natural numbers are:\n",n);
+	for(i=1;i<=n;i++)
+	{
+   printf("%d",i);
+	}//Fill the missing code here
+  return 0;
+}

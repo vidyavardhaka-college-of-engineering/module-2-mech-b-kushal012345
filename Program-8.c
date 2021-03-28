@@ -6,13 +6,16 @@ int main(){
   printf("Enter size of the array,  array elemnts and the key");
   scanf("%d",&n);
   //printf("Enter array elements");
+  printf("enter the array elements");
+  {
   for(i=0;i<n;i++)//missing code
-  scanf("%d",&a[i]);//missing code
+  scanf("%d",&a[i]);
+  }//missing code
   //printf("Enter an integer value : ");
   scanf("%d",&key);
   
     for(i=0;i<n;i++){
-  if(key==a[]) //missing code
+  if(key==a[i]) //missing code
   {
     //flag=1;
     c++;

@@ -10,9 +10,11 @@
 	  scanf("%d",&n);
 	  
 	  for(i=0;i<n;i++)
-	  scanf("%d",&a[]);//missing code
+	  scanf("%d",&a[i]);//missing code
 	  printf("Array elements in reverse order : ");
-	  for(i=;i;i) //missing code
+	  for(i=n;i>=0;--i) //missing code
+    {
 	  printf("%d ",a[i]);
+    }
 	  return(0);
 	}
